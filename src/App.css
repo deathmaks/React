@@ -1,0 +1,67 @@
+:root {
+  --green: #219653;
+  --grey: #e0e0e0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+* {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  font-family: "Roboto", sans-serif;
+}
+
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.block__login h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #000000;
+
+  margin-bottom: 32px;
+}
+
+
+
+
+.block__login p {
+  width: 348px;
+  height: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #828282;
+}
+
+
+
+
+.block__login img {
+}
+.block__login p a {
+  cursor: pointer;
+}
