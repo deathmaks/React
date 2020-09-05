@@ -1,67 +1,38 @@
-:root {
-  --green: #219653;
-  --grey: #e0e0e0;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-
-* {
-  font-size: 16px;
-  margin: 0;
-  padding: 0;
-  user-select: none;
-  font-family: "Roboto", sans-serif;
-}
-
-
-
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-.block__login h1 {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 150%;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  color: #000000;
-
-  margin-bottom: 32px;
-}
-
-
-
-
-.block__login p {
-  width: 348px;
-  height: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 150%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.App {
   text-align: center;
-  color: #828282;
 }
 
-
-
-
-.block__login img {
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
-.block__login p a {
-  cursor: pointer;
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
